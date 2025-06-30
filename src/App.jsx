@@ -100,7 +100,7 @@ export default function TodoApp() {
             <div className="empty-state">
               <p className="empty-text">
                 {filter === 'completed'
-                  ? '완료 리스트 없음'
+                  ? '완료 없음'
                   : filter === 'active'
                     ? '진행중 리스트 없음'
                     : '리스트 없음'}
